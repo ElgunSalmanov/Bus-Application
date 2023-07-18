@@ -1,0 +1,35 @@
+﻿<Window x:Class="BusApplication.View.News"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:BusApplication.View"
+        mc:Ignorable="d"
+        Title="News" Height="406" Width="800" WindowStartupLocation="CenterScreen" MaxWidth="800" MaxHeight="406" MinWidth="800" MinHeight="406">
+    <Grid>
+        <Image Source="/Resources/Elan_Bus.png" Margin="20,211,611,38"></Image>
+        <Image Source="/Resources/Elan_Bus.png" Margin="21,10,610,239"></Image>
+        <Image Source="/Resources/Elan_Information.png" Margin="318,10,313,239"></Image>
+        <Image Source="/Resources/Elan_Driver.png" Margin="318,211,312,38"></Image>
+        <Image Source="/Resources/Elan_Bus.png" Margin="610,211,20,38"></Image>
+        <Image Source="/Resources/Elan_Tekh.png" Margin="610,10,20,239"></Image>
+
+        <Label FontSize="11" Content=" BakuBus MMC-yə məxsus avtobuslarda iyun" Margin="-4,151,577,215"></Label>
+        <Label FontSize="11" Content=" ayında tapılan sənəd və əşyalar " Margin="20,163,553,203"></Label>
+
+        <Label FontSize="11" Content=" BakuBus MMC-yə məxsus avtobuslarda may" Margin="-4,352,577,14"></Label>
+        <Label FontSize="11" Content=" ayında tapılan sənəd və əşyalar " Margin="21,364,552,2"></Label>
+
+        <Label FontSize="11" Content=" M10 nömrəli ekspres marşrut xəttinin fəaliyyəti" Margin="289,151,272,215"></Label>
+        <Label FontSize="11" Content=" bərpa edilir " Margin="369,163,204,203"></Label>
+
+        <Label FontSize="11" Content=" Nəqliyyat Könüllülərinin Bakubus MMC-yə" Margin="587,151,-14,215"></Label>
+        <Label FontSize="11" Content=" təcrübə səfəri təşkil edilib " Margin="634,163,-61,203"></Label>
+
+        <Label FontSize="11" Content="BakuBus MMC-yə məxsus avtobuslarda aprel" Margin="573,352,0,14"></Label>
+        <Label FontSize="11" Content=" ayında tapılan sənəd və əşyalar " Margin="610,364,-37,2"></Label>
+
+        <Label FontSize="11" Content=" Avtobusda tapılan külli miqdarda vəsait" Margin="301,352,272,14"></Label>
+        <Label FontSize="11" Content=" sahibinə təhvil verilib " Margin="346,364,227,2"></Label>
+    </Grid>
+</Window>
